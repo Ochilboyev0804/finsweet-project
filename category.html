@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./category-style/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>category page</title>
+</head>
+<body>
+    <div class="header">
+        <div class="container mx-auto px-4">
+          <div class="flex justify-between items-center py-6">
+            <img
+              src="./images/iconka/site_logo.svg"
+              alt="Site Logo"
+              width="140"
+              height="28"
+            />
+            <div class="header__block flex justify-between items-center">
+              <ul class="header__item  md:hidden lg:flex hidden justify-between items-center gap-x-16">
+                <li class="header__list">
+                  <a href="./home.html" class="header__link">Home</a>
+                </li>
+                <li class="header__list">
+                  <a href="./category.html" class="header__link">Category</a>
+                </li>
+                <li class="header__list">
+                  <a href="./Allpost.html" class="header__link">All posts</a>
+                </li>
+              
+                <li class="header__list">
+                  <a href="./register.html" class="header__link">Register</a>
+                </li>
+              </ul>
+              <img
+                src="./images/iconka/Vector.svg"
+                alt="Vector"
+                width="16"
+                height="12"
+                class="header__block-vektor block sm:hidden lg:hidden md:hidden"
+              />
+              <button class="rounded-none ... md:ml-24 lg:ml-24 ml-6 header__btn">
+                <a href="./login.html">Login</a>
+                
+              </button>
+            </div>
+          
+          </div>
+        </div>
+        <div class="header__block   lg:hidden md:flex hidden md:justify-center md:items-center">
+          <ul class="header__item  md:flex lg:hidden hidden justify-between items-center gap-x-16">
+            <li class="header__list">
+              <a href="./home.html" class="header__link">Home</a>
+            </li>
+            <li class="header__list">
+              <a href="./category.html" class="header__link">Category</a>
+            </li>
+            <li class="header__list">
+              <a href="./Allpost.html" class="header__link">All posts</a>
+            </li>
+          
+            <li class="header__list">
+              <a href="./register.html" class="header__link">Register</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="hero bg-[#F4F0F8] ">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="hero__title mb-[16px] pt-[80px]">Startup</h1>
+            <p class="hero__subtitle mb-[32px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br> eiusmod tempor incididunt ut labore.</p>
+            <p class="hero__text pb-[80px]">Blog > startup</p>
+        </div>
+      </div>
+      
+
+      <div class="section">
+        <div class="container mx-auto px-4">
+          <input type="text" class="search" placeholder="Searching ..." />
+
+          <div class="section__box  mb-[46px]">
+
+
+          </div>
+          <div class="pagination_wrapper"></div>
+
+        </div>
+      </div>
+
+      <footer class="footer bg-[#232536]">
+        <div class="container mx-auto px-4 flex justify-between">
+          <div class="">
+            <p class="footer__title pt-[54px]">
+              <a href="#">Finstreet 118 2561 Fintown</a>
+            </p>
+            <p class="footer__title pb-[54px]">
+              Hello@finsweet.com 020 7993 2905
+            </p>
+          </div>
+          <div class="flex items-center gap-x-4">
+            <img src="./images/iconka/facebook.svg" alt="Facebook" width="16" height="16" class="footer__img" />
+            <img src="./images/iconka/twitter.svg" alt="Twitter" width="16" height="16" class="footer__img" />
+            <img src="./images/iconka/instagiram.svg" alt="Instagiram" width="16" height="16" class="footer__img" />
+            <img src="./images/iconka/linkedln.svg" alt="Linkedln" width="16" height="16" class="footer__img" />
+          </div>
+        </div>
+      </footer>
+    <script src="./js/category.js"></script>
+</body>
+</html>

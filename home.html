@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./home-style/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Home</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="container mx-auto px-4">
+        <div class="flex justify-between items-center py-6">
+          <img
+            src="./images/iconka/site_logo.svg"
+            alt="Site Logo"
+            width="140"
+            height="28"
+          />
+          <div class="header__block  flex justify-between items-center">
+          <img src="./images/iconka/Vector.svg" alt="Vector" width="16" height="12" onclick="menu()" class="header__block-vektor block  lg:hidden md:hidden ">
+
+            <ul class="header__item  md:hidden lg:flex hidden justify-between items-center gap-x-16">
+              <li class="header__list">
+                <a href="./home.html" class="header__link">Home</a>
+              </li>
+              <li class="header__list">
+                <a href="./category.html" class="header__link">Category</a>
+              </li>
+              <li class="header__list">
+                <a href="./Allpost.html" class="header__link">All posts</a>
+              </li>
+              <li class="header__list">
+                <a href="./register.html" class="header__link">Register</a>
+              </li>
+            </ul>
+            <button class="rounded-none ... md:ml-24 lg:ml-24 ml-6 header__btn">
+              <a href="./login.html">Login</a>
+              
+            </button>
+          </div>
+        </div>
+        <div class="header__block   lg:hidden md:flex hidden md:justify-center md:items-center">
+          <ul class="header__item  md:flex lg:hidden hidden justify-between items-center gap-x-16">
+            <li class="header__list">
+              <a href="./home.html" class="header__link">Home</a>
+            </li>
+            <li class="header__list">
+              <a href="./category.html" class="header__link">Category</a>
+            </li>
+            <li class="header__list">
+              <a href="./Allpost.html" class="header__link">All posts</a>
+            </li>
+            <li class="header__list">
+              <a href="./register.html" class="header__link">Register</a>
+            </li>
+          </ul>
+        </div>
+        <div class="header__block-menifier block lg:hidden md:hidden">
+        <img src="./images/iconka/x-solid.svg" alt="x-solid" width="16" height="12" onclick="xmenu()" class="header__block-vektor  block  lg:hidden md:hidden ">
+
+        <ul class="header__item  md:hidden lg:flex block justify-between items-center gap-x-16">
+          <li class="header__list">
+            <a href="./home.html" class="header__link">Home</a>
+          </li>
+          <li class="header__list">
+            <a href="./category.html" class="header__link">Category</a>
+          </li>
+          <li class="header__list">
+            <a href="./Allpost.html" class="header__link">All posts</a>
+          </li>
+          <li class="header__list">
+            <a href="./register.html" class="header__link">Register</a>
+          </li>
+        </ul>
+          
+        </div>
+        </div>
+    </div>
+    <div class="hero mb-[94px] text-center lg:text-left">
+      <div class="container mx-auto px-4 ab">
+        <p class="hero__paragraph pt-[128px]">Posted on startup</p>
+        <h1 class="hero__title">
+          Step-by-step guide to choosing <br />
+          great font pairs
+        </h1>
+        <p class="hero__paragraph-data">
+          By <span class="hero__span text-amber-300">James West</span> | May 23,
+          2022
+        </p>
+        <p class="hero__subtitle">
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+          dolore eu <br />
+          fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+        </p>
+        <button class="rounded-none ... hero__btn mx-auto lg:mx-0">Read More ></button>
+      </div>
+    </div>
+    <div class="section ">
+      <div class="container mx-auto px-4">
+        <h2 class="section__box-title mb-[100px]">Popular blogs</h2>
+
+        <div class="section__box lg:flex lg:justify-between md:block blcok justify-center mx-auto  gap-[32px] mb-[46px]">
+
+
+        </div>
+
+        <hr class="mb-[69px]" />
+
+        <div class="">
+          <h2 class="section__block-title text-center mb-[71px]">
+            Choose A Catagory
+          </h2>
+
+          <div
+            class="section__block lg:flex lg:justify-between block  lg:items-center mx-auto mb-[100px]"
+          >
+            <div class="section__card">
+              <img
+                src="./images/iconka/business-icon.svg"
+                alt="Business"
+                class="mb-[15px] section__card-img"
+                width="48"
+                height="46"
+              />
+              <h3 class="section__card-title">Business</h3>
+              <p class="section__card-subtitle">
+                Lorem ipsum dolor sit amet, <br />
+                consectetuer adipiscing elit.
+              </p>
+            </div>
+            <div class="section__card">
+                 <img
+                src="./images/iconka/startup-icon.svg"
+                alt="Startup"
+                class="section__card-img p-[10px] mb-[18px]"
+                width="48"
+                height="46"
+              />
+             
+              <h3 class="section__card-title">Startup</h3>
+              <p class="section__card-subtitle">
+                Lorem ipsum dolor sit amet, <br />
+                consectetuer adipiscing elit.
+              </p>
+            </div>
+            <div class="section__card">
+              <img
+                src="./images/iconka/economy-icon.svg"
+                alt="Economy"
+                class="mb-[15px] section__card-img"
+                width="48"
+                height="46"
+              />
+              <h3 class="section__card-title">Economy</h3>
+              <p class="section__card-subtitle">
+                Lorem ipsum dolor sit amet, <br />
+                consectetuer adipiscing elit.
+              </p>
+            </div>
+            <div class="section__card">
+              <img
+                src="./images/iconka/technology-icon.svg"
+                alt="Technology"
+                class="mb-[15px] section__card-img"
+                width="48"
+                height="46"
+              />
+              <h3 class="section__card-title">Technology</h3>
+              <p class="section__card-subtitle">
+                Lorem ipsum dolor sit amet, <br />
+                consectetuer adipiscing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer bg-[#232536]">
+      <div class="container mx-auto px-4 flex justify-between">
+        <div class="">
+          <p class="footer__title pt-[54px]">
+            <a href="#">Finstreet 118 2561 Fintown</a>
+          </p>
+          <p class="footer__title pb-[54px]">
+            Hello@finsweet.com 020 7993 2905
+          </p>
+        </div>
+        <div class="flex items-center gap-x-4">
+          <img src="./images/iconka/facebook.svg" alt="Facebook" width="16" height="16" class="footer__img" />
+          <img src="./images/iconka/twitter.svg" alt="Twitter" width="16" height="16" class="footer__img" />
+          <img src="./images/iconka/instagiram.svg" alt="Instagiram" width="16" height="16" class="footer__img" />
+          <img src="./images/iconka/linkedln.svg" alt="Linkedln" width="16" height="16" class="footer__img" />
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/home.js"></script>
+  </body>
+</html>

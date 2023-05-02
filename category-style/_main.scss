@@ -1,0 +1,128 @@
+.header {
+  background-color: rgba(35, 37, 54, 1);
+
+  &__list {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+  }
+  &__btn {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #232536;
+    padding: 16px 48px;
+    background: #ffffff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+}
+
+.hero {
+  &__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: -2px;
+    color: #232536;
+  }
+  &__subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #6d6e76;
+  }
+  &__text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #232536;
+  }
+}
+
+.footer {
+  &__title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffffff;
+    opacity: 0.7;
+  }
+}
+.section__box {
+  display: block;
+}
+.img__class{
+  width: 447px;
+  height: 312px;
+  margin-right: 48px;
+}
+.section__cards {
+  margin-bottom: 32px;
+  display: flex;
+  align-items: flex-start;
+}
+@media only screen and (max-width: 768px) {
+  .section__cards {
+    display: block;
+  }
+  .section__title { 
+    margin-bottom: 25px !important;
+  }
+}
+.section__a{
+  font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 3px;
+text-transform: uppercase;
+color: #592EA9;
+margin-bottom: 20px;
+}
+.section__title{
+  font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 48px;
+letter-spacing: -2px;
+color: #232536;
+margin-bottom: 64px;
+}
+.search{
+  padding: 15px;
+  border: 1px solid rgb(80, 74, 74);
+  margin: 65px 0;
+  width: 100%;
+}
+.active{
+  padding: 10px;
+  background: rgb(72, 77, 177);
+  color: #fb0404;
+}
+.pagination_wrapper{
+text-align: center;
+margin-bottom: 25px;
+}
+.pagination__wrapper-btn{
+  border: 1px solid black;
+  padding: 10px;
+  margin-right: 20px;
+}
